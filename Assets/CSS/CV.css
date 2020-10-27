@@ -1,0 +1,334 @@
+body
+{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+nav
+{
+   /* position: fixed; */
+   display: flex;
+   background-color:#BF8C60;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100px;
+   border-radius: 10px;
+}
+ul
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 80%;
+    height: 50px;
+    color: #ffffff;
+    font-family: "Forte";
+    text-decoration: none;
+    
+}
+li
+{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color:#16498C;
+    background-color: white;
+    border-radius: 25% 10%;
+    text-decoration: none;
+}
+#box1
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box2
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 520px;
+}
+.whoIam
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:#16498C;
+    padding: 20px; 
+    color: #ffffff;
+}
+.pictureMe
+{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 200px;
+}
+.citation
+{
+    display: flex;
+    color:#16498C;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-style: italic;
+    width: 100%;
+    height: 100px;
+}
+.span
+{
+    font-size: 40px;
+    text-decoration: none;
+}
+.diplome
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#BF8C60;
+    height: 100px;
+    margin: 20px;
+    font-family: "Forte";
+}
+.diplômes
+{
+    color:#16498C;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+}
+.container1
+{
+    display: flex;
+    flex-wrap: nowrap;
+    border: solid 1px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #16498C;
+    color: #ffffff;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    font-family: Century Gothic;
+}
+
+#containerDiplome
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: Century Gothic;
+}
+#moncercle{
+    background:#ffffff;
+    color: #16498C;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    border:2px solid white;
+    line-height:30px;
+    height:70px;
+    padding-top:30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+#containerExperience
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+#containerCompétence
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-around; */
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+    /* justify-content: space-around; */
+}
+.ligne1
+{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 80%;
+    padding-right: 10px;
+}
+.ligne2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+.picture1
+{
+    height: 90px;
+    width: 90px;
+    
+}
+.picture2
+{
+    height: 115px;
+    width: 120px;
+}
+.picture3
+{
+    height: 100px;
+    width: 80px;
+}
+.picture4
+{
+    height: 80px;
+    width: 80px;
+    
+}
+#containerLangue
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height:30px;
+    font-family: Century Gothic;
+}
+.flag
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 60px
+}
+.drapeau
+{
+    height: 120px;
+    width: 200px;
+}
+#containerContact
+{
+    display: flex;
+    justify-content: center;
+    font-family: Century Gothic;
+}
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid #16498C 3px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Century Gothic;
+}
+.contact1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid #16498C 3px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    line-height: 2em;
+    
+}
+.envellope
+{
+height: 100px;
+width: 100px;
+}
+#telechargerCv
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.iciTelecharger
+{
+    border: solid #16498C 3px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: Century Gothic;
+}
+#competencePerso
+{
+    display: flex;
+    background-color:#ffffff;
+    border: #16498C solid 3px;
+    justify-content: center;
+    
+}
+.textcompetence1
+{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    line-height: 2em;
+    font-family: Century Gothic;
+}
+.textcompetence2
+{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: 30px;
+    line-height: 2em;
+    font-size: 20px;
+    font-family: Century Gothic;
+}
+.popo
+{
+    background-color: gold;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
+#carre
+{
+    height: 130px;
+    width:130px;
+    background: red;
+}
+span
+{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+h1{
+    font-family: "Forte";
+}
+a
+{
+text-decoration: none;
+}
+@font-face
+{
+    font-family: "Forte";
+    src: url("../Font/FORTE.TTF") format("truetype");
+    font-family: "Century Gothic";
+    src: url("../Font/07558_CenturyGothic.ttf") format("truetype");
+}
